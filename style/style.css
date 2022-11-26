@@ -68,6 +68,9 @@ section {
     line-height: 25px;
 }
 
+footer{
+    padding-left: 5%;
+}
 
 @media screen and (min-width: 565px) {
     section {
