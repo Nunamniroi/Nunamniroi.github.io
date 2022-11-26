@@ -1,9 +1,8 @@
 body {
-
     background-color: #E6EFF6;
-    border: 2px solid #77A6B6;
-    border-radius: .5em;
-
+    margin: 10%;
+    max-width: 1440px;
+    min-width: 375px;
 }
 
 header {
@@ -12,21 +11,19 @@ header {
 }
 
 header h1 {
-    color: #45ADAC
+    color: hsl(179, 62%, 43%);
 }
 
 header h2 {
-    color: #D0E468
+    color: hsl(71, 73%, 54%);
 }
 
 header p {
-    color: #B3B9C4;
+    color: hsl(218, 22%, 67%);
 }
 
 section {
-    border: 2px solid #77A6B6;
-    border-radius: .5em;
-    color: #FFFFFF;
+    color: hsl(204, 43%, 93%);
 }
 
 section {
@@ -35,35 +32,36 @@ section {
 
 
 .left {
-    background: #2AADAB;
+    background: hsl(179, 62%, 43%);
     padding: 5%;
 }
 
 .right {
-    background: #4ABEBD;
+    background: hsl(179, 71%, 47%);
     padding: 5%;
 }
 
 .right ul {
     list-style: none;
-    color: #B6F7FB;
+    padding-left: 0;
+    color: hsl(204, 43%, 93%);
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 375px) {
     section {
         display: flex;
     }
-    
+
     .left {
         flex: 1;
     }
-    
+
     .right {
         flex: 1;
     }
-    
+
     .right ul {
         list-style: none;
     }
-    
+
 }
