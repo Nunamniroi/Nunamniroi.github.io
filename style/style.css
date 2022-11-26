@@ -56,6 +56,16 @@ section {
     border:none;
     border-radius:10px;
 }
+
+.left .button:hover{
+    background-color: hsl(73, 63%, 46%);
+}
+
+.left .button:focus{
+    background-color: 	hsl(253, 100%, 62%);
+}
+
+
 .right {
     background: hsl(179, 71%, 47%);
     padding: 5%;
