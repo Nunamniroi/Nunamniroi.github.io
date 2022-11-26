@@ -1,5 +1,6 @@
 body {
     font-family: 'Karla', sans-serif;
+    font-size: 16px;
     background-color: #E6EFF6;
     max-width: 1440px;
     min-width: 375px;
@@ -21,6 +22,7 @@ header h2 {
 
 header p {
     color: hsl(218, 22%, 67%);
+    line-height: 25px;
 }
 
 section {
@@ -39,12 +41,21 @@ section {
 
 .left strong {
     font-size: 30px;
+    margin-right: 5px;
 }
 
 .left span {
     color: hsl(217, 24%, 81%);
 }
 
+.left .button{
+    color: hsl(204, 43%, 93%);
+    font-size: 20px;
+    width: 275px;
+    background-color: hsl(71, 73%, 54%);
+    border:none;
+    border-radius:10px;
+}
 .right {
     background: hsl(179, 71%, 47%);
     padding: 5%;
@@ -54,6 +65,7 @@ section {
     list-style: none;
     padding-left: 0;
     color: hsl(203, 19%, 86%);
+    line-height: 25px;
 }
 
 
