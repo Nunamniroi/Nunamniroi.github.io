@@ -1,15 +1,13 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
+
     background-color: #E6EFF6;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+
 }
 
 header {
     padding: 5%;
-    margin: 0 10% 0 10%;
     background: #FFFFFF;
 }
 
@@ -25,43 +23,47 @@ header p {
     color: #B3B9C4;
 }
 
-article {
+section {
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
     color: #FFFFFF;
-    margin: 0 10% 0 10%;
 }
 
-article section{
+section {
     display: grid;
 }
 
-article .left {    
+
+.left {
     background: #2AADAB;
     padding: 5%;
 }
 
-article .rigth {
+.right {
     background: #4ABEBD;
     padding: 5%;
 }
 
-article .rigth ul {
+.right ul {
     list-style: none;
     color: #B6F7FB;
 }
 
-@media screen and (min-width: 40em) 
-{
-    header {
-        padding: 5%;
-        margin: 0 10% 0 10%;
-        background: #FFFFFF;
-    }
-
-    article{
-        margin: 0 10% 0 10%;
-    }
-
-    article section {
+@media screen and (min-width: 40em) {
+    section {
         display: flex;
     }
+    
+    .left {
+        flex: 1;
+    }
+    
+    .right {
+        flex: 1;
+    }
+    
+    .right ul {
+        list-style: none;
+    }
+    
 }
