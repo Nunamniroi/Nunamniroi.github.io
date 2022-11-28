@@ -1,3 +1,6 @@
+/* *{
+    margin: 0;
+} */
 body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
@@ -10,6 +13,7 @@ body {
 header {
   padding: 5%;
   background: #ffffff;
+  margin: 0;
 }
 
 header h1 {
@@ -33,9 +37,12 @@ section {
   display: grid;
 }
 
+section > * {
+    padding: 5%;
+}
+
 .left {
   background: hsl(179, 62%, 43%);
-  padding: 5%;
 }
 
 .left strong {
@@ -66,7 +73,6 @@ section {
 
 .right {
   background: hsl(179, 71%, 47%);
-  padding: 5%;
 }
 
 .right ul {
@@ -77,7 +83,25 @@ section {
 }
 
 footer {
-  padding-left: 5%;
+  padding: 2% 0 2% 5%;
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(253, 100%, 62%);
+}
+
+footer a {
+    color: hsl(73, 63%, 46%);;
+}
+
+footer a:hover {
+    color: hsl(117, 77%, 46%);;
+}
+
+footer a:visited{
+    color: hsl(352, 83%, 48%);
+}
+
+footer > * {
+    margin: 0px;
 }
 
 @media screen and (min-width: 565px) {
@@ -91,9 +115,5 @@ footer {
 
   .right {
     flex: 1;
-  }
-
-  .right ul {
-    list-style: none;
   }
 }
