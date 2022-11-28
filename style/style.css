@@ -38,7 +38,7 @@ section {
 }
 
 section > * {
-    padding: 5%;
+  padding: 5%;
 }
 
 .left {
@@ -89,19 +89,19 @@ footer {
 }
 
 footer a {
-    color: hsl(73, 63%, 46%);;
+  color: hsl(73, 63%, 46%);
 }
 
 footer a:hover {
-    color: hsl(117, 77%, 46%);;
+  color: hsl(117, 77%, 46%);
 }
 
-footer a:visited{
-    color: hsl(352, 83%, 48%);
+footer a:visited {
+  color: hsl(352, 83%, 48%);
 }
 
 footer > * {
-    margin: 0px;
+  margin: 0px;
 }
 
 @media screen and (min-width: 565px) {
