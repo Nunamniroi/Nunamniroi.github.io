@@ -48,8 +48,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nunamniroi/Nunamniroi.github.io)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Nunamniroi/Nunamniroi.github.io)
+- Live Site URL: [Live Site URL](https://nunamniroi.github.io/)
 
 ## My process
 
