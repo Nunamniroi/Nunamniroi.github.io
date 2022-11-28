@@ -16,8 +16,6 @@ This is [my](https://github.com/Nunamniroi) solution to the [Single price grid c
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,19 +27,28 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+**1. Optimal layout for the component depending on their device's screen size**
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+- **Desktop Design**
+  ![Desktop design preview for the Single price grid component coding challenge](./design/desktop-design.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+- **Mobile design**
+  ![Mobile design preview for the Single price grid component coding challenge](./design/mobile-design.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+**2. Sign Up button states**
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- **Sign Up disabled**
+  ![Sign Up button disabled preview for the Single price grid component coding challenge](./design/SignUp-disabled.png)
+
+- **Sign Up hovered**
+  ![Sign Up button disabled preview for the Single price grid component coding challenge](./design/SignUp-hovered.png)
+
+- **Sign Up focused**
+  ![Sign Up button disabled preview for the Single price grid component coding challenge](./design/SignUp-focused.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Nunamniroi/Nunamniroi.github.io)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
