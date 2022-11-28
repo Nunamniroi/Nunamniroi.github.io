@@ -1,101 +1,99 @@
 body {
-    font-family: 'Karla', sans-serif;
-    font-size: 16px;
-    background-color: #E6EFF6;
-    max-width: 1440px;
-    min-width: 375px;
-    margin: auto;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: #e6eff6;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: auto;
 }
 
 header {
-    padding: 5%;
-    background: #FFFFFF;
+  padding: 5%;
+  background: #ffffff;
 }
 
 header h1 {
-    color: hsl(179, 62%, 43%);
+  color: hsl(179, 62%, 43%);
 }
 
 header h2 {
-    color: hsl(71, 73%, 54%);
+  color: hsl(71, 73%, 54%);
 }
 
 header p {
-    color: hsl(218, 22%, 67%);
-    line-height: 25px;
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
 }
 
 section {
-    color: hsl(204, 43%, 93%);
+  color: hsl(204, 43%, 93%);
 }
 
 section {
-    display: grid;
+  display: grid;
 }
-
 
 .left {
-    background: hsl(179, 62%, 43%);
-    padding: 5%;
+  background: hsl(179, 62%, 43%);
+  padding: 5%;
 }
 
 .left strong {
-    font-size: 30px;
-    margin-right: 5px;
+  font-size: 30px;
+  margin-right: 5px;
 }
 
 .left span {
-    color: hsl(217, 24%, 81%);
+  color: hsl(217, 24%, 81%);
 }
 
-.left .button{
-    color: hsl(204, 43%, 93%);
-    font-size: 20px;
-    width: 275px;
-    background-color: hsl(71, 73%, 54%);
-    border:none;
-    border-radius:10px;
+.left .button {
+  color: hsl(204, 43%, 93%);
+  font-size: 20px;
+  width: 275px;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 10px;
 }
 
-.left .button:hover{
-    background-color: hsl(73, 63%, 46%);
+.left .button:hover {
+  background-color: hsl(73, 63%, 46%);
 }
 
-.left .button:focus{
-    background-color: 	hsl(253, 100%, 62%);
+.left .button:focus {
+  background-color: hsl(253, 100%, 62%);
 }
-
 
 .right {
-    background: hsl(179, 71%, 47%);
-    padding: 5%;
+  background: hsl(179, 71%, 47%);
+  padding: 5%;
 }
 
 .right ul {
-    list-style: none;
-    padding-left: 0;
-    color: hsl(203, 19%, 86%);
-    line-height: 25px;
+  list-style: none;
+  padding-left: 0;
+  color: hsl(203, 19%, 86%);
+  line-height: 25px;
 }
 
-footer{
-    padding-left: 5%;
+footer {
+  padding-left: 5%;
 }
 
 @media screen and (min-width: 565px) {
-    section {
-        display: flex;
-    }
+  section {
+    display: flex;
+  }
 
-    .left {
-        flex: 1;
-    }
+  .left {
+    flex: 1;
+  }
 
-    .right {
-        flex: 1;
-    }
+  .right {
+    flex: 1;
+  }
 
-    .right ul {
-        list-style: none;
-    }
+  .right ul {
+    list-style: none;
+  }
 }
