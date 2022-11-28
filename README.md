@@ -99,7 +99,6 @@ This part of code is for responsive design.
     flex: 1;
   }
 }
-}
 ```
 
 ### Continued development
