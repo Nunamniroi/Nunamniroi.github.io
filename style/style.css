@@ -74,7 +74,7 @@ h2 {
   margin-top: 5%;
   margin-bottom: 5%;
 
-  box-shadow: 5px 5px 25px hsl(179, 39%, 37%);
+  box-shadow: 2px 2px 15px hsl(179, 39%, 37%);
 }
 
 .left .button:hover {
@@ -96,7 +96,7 @@ h2 {
   list-style: none;
   padding-left: 0;
   color: hsl(203, 19%, 86%);
-  line-height: 25px;
+  line-height: 20px;
   font-size: 1em;
 }
 
