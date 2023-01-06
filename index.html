@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,59 +10,67 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- My CSS -->
     <link rel="stylesheet" href="style/style.css" />
-    <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
 
   <body>
     <main>
-      <article>
-        <sect ion class="top">
-          <h1>Join our community</h1>
-          <h2>30-day, hassle-free money back guarantee</h2>
+      <article class="offer">
+        <div class="offer__description">
+          <h2 class="offer__title">Join our community</h2>
+          <h3 class="offer__guarantee">
+            30-day, hassle-free money back guarantee
+          </h3>
           <p>
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
             their skills.
           </p>
-        </sect>
+        </div>
 
-        <section class="bottom">
-          <div class="left">
-            <h2>Monthly Subscription</h2>
-            <p><strong>$29</strong> <span>per month</span></p>
-            <p>Full access for less than $1 a day</p>
-            <button type="button" class="button">
-              <p>Sign Up</p>
-            </button>
+        <div class="offer__subscription">
+          <h2 class="offer__agreement">Monthly Subscription</h2>
+          <div class="flex-group">
+            <p class="offer__price">$29</p>
+            <p class="offer__period">per month</p>
           </div>
-          <div class="right">
-            <h2>Why Us</h2>
-            <ul>
-              <li>Tutorial by industry experts</li>
-              <li>Peer & expert code reviews</li>
-              <li>Coding experts</li>
-              <li>Access to our GitHub repos</li>
-              <li>Community forums</li>
-              <li>Flashcard decks</li>
-              <li>New videos every week</li>
-            </ul>
-          </div>
-        </section>
+          <p class="offer__access">Full access for less than $1 a day</p>
+          <button type="button" class="button">Sign Up</button>
+        </div>
+
+        <div class="offer__advantages">
+          <h2 class="offer__why_us">Why Us</h2>
+          <ul class="offer__list">
+            <li>Tutorial by industry experts</li>
+            <li>Peer & expert code reviews</li>
+            <li>Coding experts</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forums</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
       </article>
+
+      <div>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/Nunamniroi">Enlil</a>.
+        </p>
+      </div>
     </main>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/Nunamniroi">Enlil</a>.
-      </p>
-    </footer>
   </body>
 </html>

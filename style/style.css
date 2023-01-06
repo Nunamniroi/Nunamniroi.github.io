@@ -1,15 +1,20 @@
 :root {
+  --clr-primary-100: hsl(204, 43%, 100%);
+  --clr-primary-200: hsl(206, 47%, 93%);
   --clr-primary-400: hsl(179, 62%, 43%);
-  --clr-primary-100: hsl(179, 62%, 95%);
-  --clr-secondary-500: hsl(71, 73%, 54%);
+  --clr-primary-500: hsl(179, 48%, 52%);
 
-  --clr-neutral-100:hsl(204, 43%, 93%);
+  --clr-secondary-600: hsl(71, 73%, 54%);
+
+  --clr-neutral-200: hsl(204, 43%, 93%);
   --clr-neutral-700: hsl(218, 22%, 67%);
 
-  --ff-base: 'Karla', sans-serif;
+  --ff-base: "Karla", sans-serif;
 
   --fw-regular: 400;
   --fw-bold: 700;
+
+  --fs-base: 16px;
 }
 
 /*
@@ -78,15 +83,165 @@ h6 {
   general styling
 */
 body {
-  border: 3px solid red;
-
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
-  font-size: 16px;
+  font-size: var(--fs-base);
   color: var(--clr-neutral-400);
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-primary-200);
 
   display: grid;
   place-content: center;
-  margin: 1rem;
+  margin: 2rem;
+}
+
+/* button styling */
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+
+  border: 0;
+  border-radius: 0.245rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--clr-secondary-600);
+  color: var(--clr-primary-100);
+  font-size: 1.025rem;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button:is(:hover, :focus) {
+  background-color: var(--clr-primary-500);
+}
+
+/* offer styling */
+.offer {
+  --content-padding: 1.4rem;
+  --content-spacing: 1rem;
+
+  display: grid;
+  background-color: var(--clr-primary-100);
+  color: var(--clr-neutral-700);
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 645px;
+}
+
+@media (min-width: 450px) {
+  .offer {
+  --content-padding: 2.3145rem;
+
+    grid-template-areas:
+      "description description"
+      "subscription advantages";
+    grid-template-columns: 1fr 1fr;
+  }
+/* offer description styling */
+  .offer__description {
+    grid-area: description;
+  }
+/* offer subscription styling */
+  .offer__subscription {
+    grid-area: subscription;
+  }
+  /* offer advantages styling */
+  .offer__advantages {
+    grid-area: advantages;
+  }
+}
+
+/* offer description styling */
+.offer__description {
+  display: grid;
+  background-color: var(--clr-primary-100);
+  gap: var(--content-spacing);
+  padding: var(--content-padding);
+}
+
+.offer__description p {
+  font-size: 0.87rem;
+  line-height: 1.65rem;
+}
+
+.offer__title {
+  color: var(--clr-primary-400);
+  font-size: 1.25rem;
+}
+
+.offer__guarantee {
+  color: var(--clr-secondary-600);
+  font-size: 0.95rem;
+}
+
+/* offer subscription styling */
+.offer__subscription {
+  display: grid;
+  background-color: var(--clr-primary-400);
+  color: var(--clr-primary-100);
+  padding: var(--content-padding);
+}
+
+.offer__agreement {
+  font-size: 1.12rem;
+  margin-bottom: 0.75rem;
+}
+
+.flex-group {
+  display: flex;
+  gap: 0.875rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.offer__price {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+}
+
+.offer__period {
+  color: var(--clr-primary-200);
+  font-size: 1rem;
+}
+
+.offer__access {
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+/* offer advantages styling */
+.offer__advantages {
+  display: grid;
+  background-color: var(--clr-primary-500);
+  color: var(--clr-primary-100);
+  gap: var(--content-spacing);
+  padding: var(--content-padding);
+}
+
+.offer__why_us {
+  font-size: 1.12rem;
+}
+
+.offer__list {
+  font-size: 0.785rem;
+  list-style: none;
+  padding-left: 0rem;
+  color: var(--clr-primary-200);
+}
+
+/* offer footer styling */
+.attribution {
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.attribution a {
+  color: var(--clr-secondary-600);
+}
+
+.attribution a:hover {
+  color: var(--clr-primary-400);
 }
