@@ -1,3 +1,4 @@
 {
-    "workbench.settings.editor": "ui"
+    "workbench.settings.editor": "ui",
+    "liveServer.settings.port": 5501
 }
